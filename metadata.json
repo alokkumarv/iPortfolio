@@ -1,0 +1,13 @@
+{
+    "name" : "Alok Kumar Verma",
+    "linkdin" : "www.linkedin.com/in/alok-k-verma/",
+    "github" : "github.com/alokkumarv",
+    "email" : "ialokverma89@gmail.com",
+    "modile" : "(+91) 7995289130",
+    "about" : {
+        "intro" : "I am a Software Engineer with experience in backend development, cloud technologies, and networking solutions. I have worked extensively with Golang, Python, and Node.js to build scalable and efficient web APIs. My expertise extends to containerization (Docker, Kubernetes, Istio) and cloud-native microservices architectures.",
+        "title" : "Computer engineering"
+        
+
+    }
+}

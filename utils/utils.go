@@ -2,7 +2,6 @@ package utils
 
 import (
 	"fmt"
-	"log"
 	"os"
 	"path/filepath"
 	"text/template"
@@ -19,7 +18,6 @@ func LoadTemplate() (*template.Template, error) {
 		}
 		// Print file path
 		if !d.IsDir() {
-			fmt.Println(path)
 			data = append(data, path)
 		}
 		return nil
@@ -27,9 +25,6 @@ func LoadTemplate() (*template.Template, error) {
 
 	if err != nil {
 		fmt.Println("Error:", err)
-	}
-	for _, path := range data {
-		log.Printf("%v \n", path)
 	}
 	templ, err := template.ParseFiles(data...)
 	return templ, err
