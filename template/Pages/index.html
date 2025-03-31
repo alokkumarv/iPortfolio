@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Alok Kumar Verma</title>
+  <title>{{.Name}}</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -38,17 +38,17 @@
 
 <body class="index-page">
 
-{{template "header"}}
+{{template "header" .}}
 <main class="main">
-    {{template "hero"}}
-    {{template "about"}}
-    {{template "stats"}}
-    {{template "skills"}}
-    {{template "resume"}}
-    {{template "portfolio"}}
-    {{template "services"}}
-    {{template "testimonials"}}
-    {{template "contact"}}
+    {{template "hero" .}}
+    {{template "about" .}}
+    {{template "stats" . }}
+    {{template "skills" . }}
+    {{template "resume" . }}
+    {{template "portfolio" . }}
+    {{template "services" . }}
+    {{template "testimonials" . }}
+    {{template "contact" . }}
 
 </main>
 {{ template "footer"}}

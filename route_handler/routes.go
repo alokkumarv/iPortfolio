@@ -4,6 +4,7 @@ import (
 	"log"
 	"net/http"
 
+	"github.com/alokkumarv/repository"
 	"github.com/alokkumarv/utils"
 )
 
@@ -13,9 +14,12 @@ func Home(w http.ResponseWriter, req *http.Request) {
 	if err != nil {
 		log.Printf("Error occured while parsing files %v", err)
 	}
-	log.Printf("%v", templ.DefinedTemplates())
-
-	err = templ.ExecuteTemplate(w, "index.html", nil)
+	user := repository.GetUserInfo()
+	if user == nil {
+		log.Printf("Not able to get user data ")
+	}
+	log.Printf("user : %v", user)
+	err = templ.ExecuteTemplate(w, "index.html", user)
 	if err != nil {
 		log.Printf("Error occured while executing page %v", err)
 	}
