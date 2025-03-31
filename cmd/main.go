@@ -11,6 +11,7 @@ import (
 func main() {
 	// Server Static files
 	http.Handle("/assets/", http.StripPrefix("/assets/", http.FileServer(http.Dir("./static/assets"))))
+
 	http.HandleFunc("/", routehandler.Home)
 	port := os.Getenv("PORT")
 	host := os.Getenv("HOST")
