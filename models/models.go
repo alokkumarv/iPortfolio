@@ -1,5 +1,9 @@
 package models
 
+type User struct {
+	Name string
+}
+
 type About struct {
 }
 
