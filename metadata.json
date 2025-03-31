@@ -5,7 +5,7 @@
     "email" : "ialokverma89@gmail.com",
     "modile" : "(+91) 7995289130",
     "about" : {
-        "intro" : "I am a Software Engineer with experience in backend development, cloud technologies, and networking solutions. I have worked extensively with Golang, Python, and Node.js to build scalable and efficient web APIs. My expertise extends to containerization (Docker, Kubernetes, Istio) and cloud-native microservices architectures.",
+        "intro" : "I am a Software Engineer and Technical Leader with expertise in cloud computing, backend development, and networking solutions. Currently, I lead a global team of architects, technical managers, and engineers, and I am responsible for presenting internal revenue metrics of the overall IBM Cloud to Cloud executives.My technical background includes building scalable web APIs using Golang, Python, and Node.js, along with deep experience in containerization (Docker, Kubernetes, Istio) and cloud-native architectures. I have also worked extensively with OpenShift service mesh (Maestro) as part of the Cisco ACI CNI Plugin, focusing on Kubernetes operators and CRDs.Previously, I contributed to SMB router development, handling firewall, IPsec VPNs, and Linux networking components. My expertise extends to Linux internals, including nftables, Netfilter, and systemd.Passionate about technology leadership, system optimization, and cloud architecture, I thrive on solving complex challenges and driving innovation at scale.",
         "title" : "Computer engineering"
         
 
